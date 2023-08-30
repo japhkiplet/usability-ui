@@ -1,0 +1,35 @@
+.meaning{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 100px 200px;
+    background: url('../assets/meaning.webp');
+
+    h1{
+        font-size: 50px;
+    font-weight: 800;
+    }
+    p{
+        font-size: 24px;
+        font-style: italic;
+        text-align: center;
+        padding: 2px;
+    }
+    .link{
+
+        button{
+            background: black;
+                    color: white;
+                    width: 20vw;
+                    height: 6vh;
+                    border-radius: 100px;
+                    cursor: pointer;
+                    border: 3px solid black;
+          }
+          button:hover{
+            background: white;
+            color: black;
+          }
+    }
+}

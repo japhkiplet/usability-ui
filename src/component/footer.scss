@@ -1,0 +1,98 @@
+.footer{
+    // margin: 100px 50px 20px 50px;
+    background: rgb(214, 227, 231);
+    padding: 20px;
+
+    .top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+        border-bottom: 2px solid black;
+        padding: 20px;
+
+        .item{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            text-align: justify;
+            font-size: 14px;
+
+            h2{
+                font-weight: 700;
+                font-size: 30px;
+            }
+            span{
+                font-size: 24px;
+                font-weight: 500;
+            }
+
+            .form{
+                display: flex;
+                justify-content: flex-end;
+                align-items: end;
+                gap: 2px;
+                input{
+                    width: 100%;
+                    height: 6vh;
+                    display: flex;
+                    align-items: center;
+                    border: none;
+                    outline: none;
+                }
+                button{
+                    background: black;
+                    color: white;
+                    height: 7vh;
+                }
+            }
+            .social{
+                display: flex;
+                justify-content: flex-end;
+                align-items: end;
+                top: 6px;
+                right: 0;
+                gap: 30px;
+            }
+
+        }
+    }
+    .center{
+        display: flex;
+       border-bottom: 2px solid black;
+       padding: 20px;
+        gap: 50px;
+
+        .item{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            text-align: justify;
+            font-size: 14px;
+            
+
+            h1{
+                font-size: 18px;
+                font-weight: 600;
+                color: black;
+            }
+            span{
+                color: gray;
+            }
+        } 
+    }
+    .bottom{
+       
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+
+       .right{
+        display: flex;
+        gap: 20px;
+        padding-top: 10px;
+       }
+    }
+}

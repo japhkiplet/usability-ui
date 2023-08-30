@@ -1,0 +1,34 @@
+.home{
+    display: flex;
+    padding: 40px;
+    background: url('../assets/home.webp') no-repeat center center/cover;
+
+    .left{
+        display: flex;
+        flex-direction: column;
+        
+
+        button{
+            background: black;
+            color: white;
+            width: 40%;
+            height: 8vh;
+            border-radius: 100px;
+            cursor: pointer;
+        }
+        button:hover{
+            background: white;
+            color: black;
+          }
+        h1{
+            text-transform: bold;
+            font-weight: 900;
+
+        }
+        p{
+            font-size: 24px;
+            font-weight: 600;
+            color: #201f1f;
+        }
+    }
+}

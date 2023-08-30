@@ -1,0 +1,48 @@
+.shop{
+    
+
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+       
+        .top{
+            height: 300px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 800;
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            background: rgb(205, 234, 243);
+        }
+        .bottom{
+            padding: 30PX 50PX;
+            display: flex;
+            .left{
+                flex: 1;
+                position: sticky;
+                height: 100%;
+                top: 50px;
+
+                .filter{
+                    margin-bottom: 30px;
+
+                    h2{
+                        font-weight: 400;
+                        margin-bottom: 20px;
+                    }
+                    .inputItem{
+                        margin-bottom: 10px;
+                        label{
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+            .right{
+                flex: 3;
+            }
+        }
+    }
+}
