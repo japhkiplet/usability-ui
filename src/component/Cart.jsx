@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './cart.scss'
 import  DeleteOutlinedIcon from '@mui/icons-material/DeleteOutline';
 
@@ -39,7 +40,9 @@ const Cart = () => {
             <span>$40</span>
         </div>
         <span className='reset'> Reset cart</span>
-        <button>PROCEED TO CHECKOUT</button>
+        <Link className='link' to='checkout'>
+         <button>PROCEED TO CHECKOUT</button>
+        </Link>
 
 
     </div>

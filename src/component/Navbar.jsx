@@ -5,9 +5,12 @@ import { Link } from 'react-router-dom'
 import './navbar.scss'
 import { useState } from 'react';
 import Cart from './Cart';
+import Profile from './Profile';
 
 const Navbar = () => {
     const [open , setOpen] = useState(false)
+    const [display, setDisplay] = useState(false)
+
     return (
         <div className="navbar">
             <div className="wrapper">
@@ -29,7 +32,7 @@ const Navbar = () => {
                 </div>
                 <div className="right">
                     <div className="icons">
-                        <PersonOutlineOutlinedIcon />
+                        <PersonOutlineOutlinedIcon onClick={()=>setDisplay(!display)} />
                         <div className="cartIcon" onClick={()=>setOpen(!open)}>
                             <ShoppingCartIcon />
                             <span>2</span>
@@ -37,6 +40,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
+            {display && <Profile/>}
             {open && <Cart/>}
         </div>
     )

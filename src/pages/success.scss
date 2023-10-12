@@ -1,0 +1,24 @@
+.success{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+
+    h2{
+        color: red;
+    }
+    .check{
+        width: 20%;
+        background: black;
+        color: white;
+        font-size: 30px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .check:hover{
+        color: black;
+        background: transparent;
+    }
+}

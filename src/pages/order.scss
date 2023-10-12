@@ -1,0 +1,29 @@
+.order{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+
+    .order-table {
+        width: 100%;
+        border: 1px solid #ccc; 
+        border-collapse: collapse;
+        margin-top: 20px;
+
+         th,
+         td {
+          border: 1px solid #ccc; 
+          padding: 8px;
+          text-align: left;
+        }
+        
+      }
+      .info{
+        font-size: 24px;
+        font-weight: 500;
+        color: red;
+        justify-content: center;
+        text-align: center;
+      }
+}
